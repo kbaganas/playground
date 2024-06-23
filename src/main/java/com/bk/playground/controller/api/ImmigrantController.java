@@ -19,7 +19,8 @@ public class ImmigrantController {
     @PostMapping(name = "CreateImmigrantRecord", value = "/immigrants")
     public ResponseEntity createImmigrantRecord (@RequestBody ImmigrantRequest request) {
         boolean recordCreated = service.createImmigrantRecord(new ImmigrantRequest2ModelDTOMapper().mapToModel(request));
-        if (recordCreated) {
+        boolean messageSent = service.sendImmigrantMessage(new ImmigrantRequest2ModelDTOMapper().mapToModel(request));
+        if (recordCreated && messageSent) {
             return new ResponseEntity(HttpStatus.CREATED);
         }
         else

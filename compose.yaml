@@ -10,12 +10,13 @@ services:
     image: wurstmeister/kafka:latest
     container_name: kafka_playground
     ports:
-      - "29092:9092"
+      - "29092:29092"
+      - "9092:9092"
     volumes:
       - C:\kafka\data:/var/lib/kafka
     environment:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka_playground:29092,EXTERNAL://localhost:9092
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:29092,EXTERNAL://localhost:9092
       KAFKA_LISTENERS: INTERNAL://0.0.0.0:29092,EXTERNAL://0.0.0.0:9092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1

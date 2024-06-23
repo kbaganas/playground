@@ -13,4 +13,8 @@ public class ImmigrantService {
     public boolean createImmigrantRecord (ImmigrantModelDTO dto) {
         return  repository.createImmigrantRecord(new ImmigrantDTO2ModelMapper().mapToModel(dto));
     }
+
+    public boolean sendImmigrantMessage (ImmigrantModelDTO dto) {
+        return  repository.sendImmigrantMessage(new ImmigrantDTO2ModelMapper().mapToModel(dto));
+    }
 }
