@@ -1,16 +1,21 @@
 package com.bk.playground.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.*;
+import lombok.*;
 import lombok.experimental.Accessors;
 
-@Getter
-@Setter
 @NoArgsConstructor
+@AllArgsConstructor
+@Data
+@Entity
+@Table(name = "immigrants")
 @Accessors(chain = true)
 public class ImmigrantModel {
     // The model class represents the database schema for the entity we are interacting with
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
     private String fistName;
     private String surName;
     private String originatingCountry;

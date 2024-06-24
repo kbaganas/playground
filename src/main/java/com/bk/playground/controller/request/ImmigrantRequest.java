@@ -1,13 +1,13 @@
 package com.bk.playground.controller.request;
 
-import lombok.Getter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 import lombok.experimental.Accessors;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Accessors(chain = true)
 public class ImmigrantRequest {
     private String fistName;

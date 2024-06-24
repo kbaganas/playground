@@ -1,13 +1,11 @@
 package com.bk.playground.dto;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import lombok.experimental.Accessors;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Accessors(chain = true)
 public class TravellerModelDTO {
     private String fistName;
