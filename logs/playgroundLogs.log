@@ -13691,3 +13691,1468 @@ org.hibernate.id.IdentifierGenerationException: Identifier of entity 'com.bk.pla
 2024-06-24 14:52:21.456  INFO SWG-1SHYFL3 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-06-24 14:52:21.612  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2024-06-24 14:52:21.619  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-06-24 15:48:43.792  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Starting PlaygroundApplication using Java 22.0.1 with PID 23664 (C:\Users\kbaganas\Downloads\playground\target\classes started by kbaganas in C:\Users\kbaganas\Downloads\playground)
+2024-06-24 15:48:43.806 DEBUG SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-24 15:48:43.806  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-06-24 15:48:43.867  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\kbaganas\Downloads\playground\compose.yaml'
+2024-06-24 15:48:45.437  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Created
+2024-06-24 15:48:45.437  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Created
+2024-06-24 15:48:45.437  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Created
+2024-06-24 15:48:45.437  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Created
+2024-06-24 15:48:45.458  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Starting
+2024-06-24 15:48:45.458  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Starting
+2024-06-24 15:48:45.860  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Started
+2024-06-24 15:48:45.860  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Starting
+2024-06-24 15:48:45.969  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Started
+2024-06-24 15:48:46.252  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Started
+2024-06-24 15:48:46.253  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Starting
+2024-06-24 15:48:46.610  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Started
+2024-06-24 15:48:46.610  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Waiting
+2024-06-24 15:48:46.611  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Waiting
+2024-06-24 15:48:46.611  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Waiting
+2024-06-24 15:48:46.611  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Waiting
+2024-06-24 15:48:47.130  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Healthy
+2024-06-24 15:48:47.131  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Healthy
+2024-06-24 15:48:47.131  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Healthy
+2024-06-24 15:48:47.140  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Healthy
+2024-06-24 15:48:54.580  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 15:48:54.675  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2024-06-24 15:48:55.053  INFO SWG-1SHYFL3 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=53b05079-4c8d-3a05-bf47-afd89961a696
+2024-06-24 15:48:55.811  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-24 15:48:55.833  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:48:55.833  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-24 15:48:55.833  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24 15:48:55.895  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-24 15:48:55.895  INFO SWG-1SHYFL3 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2334 ms
+2024-06-24 15:48:56.299 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-06-24 15:48:56.456  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:48:56.755  INFO SWG-1SHYFL3 --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e43b342
+2024-06-24 15:48:56.756  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-06-24 15:48:56.777  INFO SWG-1SHYFL3 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 15:48:56.824  INFO SWG-1SHYFL3 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24 15:48:56.875  INFO SWG-1SHYFL3 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-06-24 15:48:57.190  INFO SWG-1SHYFL3 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 15:48:57.435  WARN SWG-1SHYFL3 --- [           main] o.h.o.deprecation                        : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 15:48:58.153  INFO SWG-1SHYFL3 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 15:48:58.153  INFO SWG-1SHYFL3 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:48:58.875  WARN SWG-1SHYFL3 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 15:48:59.049 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-06-24 15:48:59.128 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-06-24 15:48:59.209 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-24 15:48:59.257 DEBUG SWG-1SHYFL3 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-24 15:48:59.319  WARN SWG-1SHYFL3 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-24 15:49:00.464  INFO SWG-1SHYFL3 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-24 15:49:00.529  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:49:00.544  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-24 15:49:00.578  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Started PlaygroundApplication in 17.181 seconds (process running for 29.522)
+2024-06-24 15:49:00.578  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Info log
+2024-06-24 15:49:00.578 ERROR SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Error log
+2024-06-24 15:49:00.578  WARN SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Warning message
+2024-06-24 15:51:25.755  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 15:51:25.755  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-24 15:51:25.755 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2024-06-24 15:51:25.755 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2024-06-24 15:51:25.755 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2024-06-24 15:51:25.755 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@743b4921
+2024-06-24 15:51:25.755 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@43ac1fa0
+2024-06-24 15:51:25.755 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-24 15:51:25.755  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2024-06-24 15:51:25.772 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/immigrants", parameters={}
+2024-06-24 15:51:25.789 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#createImmigrantRecord(ImmigrantRequest)
+2024-06-24 15:51:25.806 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ImmigrantRequest(fistName=Nik, surName=Liolios, originatingCountry=USA, personalIDNumber=AD546, pers (truncated)...]
+2024-06-24 15:51:25.868  WARN SWG-1SHYFL3 --- [nio-8080-exec-1] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 0, SQLState: 42P01
+2024-06-24 15:51:25.868 ERROR SWG-1SHYFL3 --- [nio-8080-exec-1] o.h.e.j.s.SqlExceptionHelper             : ERROR: relation "immigrants" does not exist
+  Position: 13
+2024-06-24 15:51:25.880 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Failed to complete request: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: relation "immigrants" does not exist
+  Position: 13] [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]; SQL [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]
+2024-06-24 15:51:25.882 ERROR SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: relation "immigrants" does not exist
+  Position: 13] [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]; SQL [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]] with root cause
+org.postgresql.util.PSQLException: ERROR: relation "immigrants" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.execute(ResultSetReturnImpl.java:129)
+	at org.hibernate.id.insert.InsertReturningDelegate.executeAndExtractReturning(InsertReturningDelegate.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performMutation(AbstractReturningDelegate.java:58)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:628)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy163.save(Unknown Source)
+	at com.bk.playground.repository.ImmigrantRepository.createImmigrantRecord(ImmigrantRepository.java:18)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:733)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy163.createImmigrantRecord(Unknown Source)
+	at com.bk.playground.service.ImmigrantService.createImmigrantRecord(ImmigrantService.java:17)
+	at com.bk.playground.controller.api.ImmigrantController.createImmigrantRecord(ImmigrantController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-06-24 15:51:25.887 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for POST "/error", parameters={}
+2024-06-24 15:51:25.889 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-24 15:51:25.889 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-24 15:51:25.889 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jun 24 15:51:25 EEST 2024, status=500, error=Internal Server Error, path=/immigrants}]
+2024-06-24 15:51:25.906 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 500
+2024-06-24 15:52:29.063 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : POST "/immigrants", parameters={}
+2024-06-24 15:52:29.064 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#createImmigrantRecord(ImmigrantRequest)
+2024-06-24 15:52:29.065 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ImmigrantRequest(fistName=Nik, surName=Liolios, originatingCountry=USA, personalIDNumber=AD546, pers (truncated)...]
+2024-06-24 15:52:29.070  WARN SWG-1SHYFL3 --- [nio-8080-exec-2] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 0, SQLState: 42703
+2024-06-24 15:52:29.071 ERROR SWG-1SHYFL3 --- [nio-8080-exec-2] o.h.e.j.s.SqlExceptionHelper             : ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25
+2024-06-24 15:52:29.074 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Failed to complete request: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25] [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]; SQL [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]
+2024-06-24 15:52:29.075 ERROR SWG-1SHYFL3 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25] [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]; SQL [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]] with root cause
+org.postgresql.util.PSQLException: ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.execute(ResultSetReturnImpl.java:129)
+	at org.hibernate.id.insert.InsertReturningDelegate.executeAndExtractReturning(InsertReturningDelegate.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performMutation(AbstractReturningDelegate.java:58)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:628)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy163.save(Unknown Source)
+	at com.bk.playground.repository.ImmigrantRepository.createImmigrantRecord(ImmigrantRepository.java:18)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:733)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy163.createImmigrantRecord(Unknown Source)
+	at com.bk.playground.service.ImmigrantService.createImmigrantRecord(ImmigrantService.java:17)
+	at com.bk.playground.controller.api.ImmigrantController.createImmigrantRecord(ImmigrantController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-06-24 15:52:29.080 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for POST "/error", parameters={}
+2024-06-24 15:52:29.081 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-24 15:52:29.085 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-24 15:52:29.085 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jun 24 15:52:29 EEST 2024, status=500, error=Internal Server Error, path=/immigrants}]
+2024-06-24 15:52:29.089 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 500
+2024-06-24 15:52:43.785 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/index.html", parameters={}
+2024-06-24 15:52:43.786 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-06-24 15:52:43.793 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 304 NOT_MODIFIED
+2024-06-24 15:52:43.823 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-06-24 15:52:43.824 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-06-24 15:52:43.835 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2024-06-24 15:52:43.920 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs/swagger-config", parameters={}
+2024-06-24 15:52:43.920 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-06-24 15:52:43.926 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-06-24 15:52:43.926 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-06-24 15:52:43.929 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2024-06-24 15:52:44.012 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs", parameters={}
+2024-06-24 15:52:44.013 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-06-24 15:52:44.333  INFO SWG-1SHYFL3 --- [nio-8080-exec-6] o.s.a.AbstractOpenApiResource            : Init duration for springdoc-openapi is: 308 ms
+2024-06-24 15:52:44.363 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-06-24 15:52:44.363 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-06-24 15:52:44.363 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2024-06-24 15:53:10.617 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : POST "/immigrants", parameters={}
+2024-06-24 15:53:10.618 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#createImmigrantRecord(ImmigrantRequest)
+2024-06-24 15:53:10.618 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ImmigrantRequest(fistName=Nik, surName=Strou, originatingCountry=Greece, personalIDNumber=AD123, per (truncated)...]
+2024-06-24 15:53:10.625  WARN SWG-1SHYFL3 --- [nio-8080-exec-7] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 0, SQLState: 42703
+2024-06-24 15:53:10.625 ERROR SWG-1SHYFL3 --- [nio-8080-exec-7] o.h.e.j.s.SqlExceptionHelper             : ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25
+2024-06-24 15:53:10.629 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Failed to complete request: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25] [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]; SQL [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]
+2024-06-24 15:53:10.631 ERROR SWG-1SHYFL3 --- [nio-8080-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25] [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]; SQL [insert into immigrants (fist_name,originating_country,personalidnumber,personalidtype,sur_name) values (?,?,?,?,?) returning id]] with root cause
+org.postgresql.util.PSQLException: ERROR: column "fist_name" of relation "immigrants" does not exist
+  Position: 25
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.execute(ResultSetReturnImpl.java:129)
+	at org.hibernate.id.insert.InsertReturningDelegate.executeAndExtractReturning(InsertReturningDelegate.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performMutation(AbstractReturningDelegate.java:58)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy160.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:628)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy163.save(Unknown Source)
+	at com.bk.playground.repository.ImmigrantRepository.createImmigrantRecord(ImmigrantRepository.java:18)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:733)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy163.createImmigrantRecord(Unknown Source)
+	at com.bk.playground.service.ImmigrantService.createImmigrantRecord(ImmigrantService.java:17)
+	at com.bk.playground.controller.api.ImmigrantController.createImmigrantRecord(ImmigrantController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-06-24 15:53:10.637 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for POST "/error", parameters={}
+2024-06-24 15:53:10.637 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-24 15:53:10.638 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-24 15:53:10.638 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jun 24 15:53:10 EEST 2024, status=500, error=Internal Server Error, path=/immigrants}]
+2024-06-24 15:53:10.639 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 500
+2024-06-24 15:53:51.862  INFO SWG-1SHYFL3 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:53:51.862  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-06-24 15:53:51.883  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-06-24 15:53:56.865  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Starting PlaygroundApplication using Java 22.0.1 with PID 21768 (C:\Users\kbaganas\Downloads\playground\target\classes started by kbaganas in C:\Users\kbaganas\Downloads\playground)
+2024-06-24 15:53:56.872 DEBUG SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-24 15:53:56.872  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-06-24 15:53:56.919  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\kbaganas\Downloads\playground\compose.yaml'
+2024-06-24 15:53:58.352  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-06-24 15:53:59.585  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 15:53:59.693  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2024-06-24 15:54:00.104  INFO SWG-1SHYFL3 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=267411a3-a1b6-3bc9-80f0-8f70803376f8
+2024-06-24 15:54:00.900  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-24 15:54:00.912  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:54:00.915  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-24 15:54:00.916  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24 15:54:01.004  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-24 15:54:01.006  INFO SWG-1SHYFL3 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2426 ms
+2024-06-24 15:54:01.367 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-06-24 15:54:01.533  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:54:02.632  INFO SWG-1SHYFL3 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 15:54:02.672  INFO SWG-1SHYFL3 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24 15:54:02.704  INFO SWG-1SHYFL3 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-06-24 15:54:02.987  INFO SWG-1SHYFL3 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 15:54:03.003  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:54:04.017  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.bk.playground.PlaygroundApplication.main(PlaygroundApplication.java:15)
+2024-06-24 15:54:04.050  WARN SWG-1SHYFL3 --- [           main] o.h.o.deprecation                        : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 15:54:04.785  INFO SWG-1SHYFL3 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 15:54:04.785  INFO SWG-1SHYFL3 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:54:05.572  WARN SWG-1SHYFL3 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 15:54:05.771 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-06-24 15:54:05.874 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-06-24 15:54:05.960 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-24 15:54:06.012 DEBUG SWG-1SHYFL3 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-24 15:54:06.081  WARN SWG-1SHYFL3 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-24 15:54:07.370  INFO SWG-1SHYFL3 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-24 15:54:07.433  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:54:07.458  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-24 15:54:07.473  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Started PlaygroundApplication in 11.042 seconds (process running for 11.996)
+2024-06-24 15:54:07.488  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Info log
+2024-06-24 15:54:07.488 ERROR SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Error log
+2024-06-24 15:54:07.488  WARN SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Warning message
+2024-06-24 15:54:17.577  INFO SWG-1SHYFL3 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:54:20.479  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Starting PlaygroundApplication using Java 22.0.1 with PID 24616 (C:\Users\kbaganas\Downloads\playground\target\classes started by kbaganas in C:\Users\kbaganas\Downloads\playground)
+2024-06-24 15:54:20.491 DEBUG SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-24 15:54:20.493  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-06-24 15:54:20.558  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\kbaganas\Downloads\playground\compose.yaml'
+2024-06-24 15:54:21.989  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-06-24 15:54:23.349  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 15:54:23.474  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2024-06-24 15:54:23.952  INFO SWG-1SHYFL3 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=267411a3-a1b6-3bc9-80f0-8f70803376f8
+2024-06-24 15:54:24.791  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-24 15:54:24.807  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:54:24.823  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-24 15:54:24.823  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24 15:54:24.907  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-24 15:54:24.907  INFO SWG-1SHYFL3 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2692 ms
+2024-06-24 15:54:25.236 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-06-24 15:54:25.412  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:54:26.497  INFO SWG-1SHYFL3 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 15:54:26.560  INFO SWG-1SHYFL3 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24 15:54:26.592  INFO SWG-1SHYFL3 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-06-24 15:54:26.839  INFO SWG-1SHYFL3 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 15:54:26.870  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:54:27.897  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.bk.playground.PlaygroundApplication.main(PlaygroundApplication.java:15)
+2024-06-24 15:54:27.928  WARN SWG-1SHYFL3 --- [           main] o.h.o.deprecation                        : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 15:54:28.592  INFO SWG-1SHYFL3 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 15:54:28.592  INFO SWG-1SHYFL3 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:54:29.207  WARN SWG-1SHYFL3 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 15:54:29.353 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-06-24 15:54:29.416 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-06-24 15:54:29.479 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-24 15:54:29.527 DEBUG SWG-1SHYFL3 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-24 15:54:29.575  WARN SWG-1SHYFL3 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-24 15:54:30.551  INFO SWG-1SHYFL3 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-24 15:54:30.628  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:54:30.628  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-24 15:54:30.661  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Started PlaygroundApplication in 10.657 seconds (process running for 11.731)
+2024-06-24 15:54:30.661  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Info log
+2024-06-24 15:54:30.661 ERROR SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Error log
+2024-06-24 15:54:30.661  WARN SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Warning message
+2024-06-24 15:54:58.206  INFO SWG-1SHYFL3 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:55:01.387  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Starting PlaygroundApplication using Java 22.0.1 with PID 10236 (C:\Users\kbaganas\Downloads\playground\target\classes started by kbaganas in C:\Users\kbaganas\Downloads\playground)
+2024-06-24 15:55:01.403 DEBUG SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-24 15:55:01.404  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-06-24 15:55:01.454  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\kbaganas\Downloads\playground\compose.yaml'
+2024-06-24 15:55:02.954  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-06-24 15:55:04.450  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 15:55:04.574  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interface.
+2024-06-24 15:55:05.063  INFO SWG-1SHYFL3 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=267411a3-a1b6-3bc9-80f0-8f70803376f8
+2024-06-24 15:55:05.894  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-24 15:55:05.910  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:55:05.910  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-24 15:55:05.910  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24 15:55:06.009  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-24 15:55:06.009  INFO SWG-1SHYFL3 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2827 ms
+2024-06-24 15:55:06.318 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-06-24 15:55:06.544  INFO SWG-1SHYFL3 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 15:55:06.586  INFO SWG-1SHYFL3 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24 15:55:06.619  INFO SWG-1SHYFL3 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-06-24 15:55:06.953  INFO SWG-1SHYFL3 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 15:55:06.976  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:55:08.023  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.bk.playground.PlaygroundApplication.main(PlaygroundApplication.java:15)
+2024-06-24 15:55:08.038  WARN SWG-1SHYFL3 --- [           main] o.h.o.deprecation                        : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 15:55:08.669  INFO SWG-1SHYFL3 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 15:55:08.685  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:55:09.709  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 0, SQLState: 08001
+2024-06-24 15:55:09.709 ERROR SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-06-24 15:55:09.709 ERROR SWG-1SHYFL3 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2024-06-24 15:55:09.709  WARN SWG-1SHYFL3 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2024-06-24 15:55:09.724  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-24 15:55:09.733  INFO SWG-1SHYFL3 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-24 15:55:09.765 ERROR SWG-1SHYFL3 --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.bk.playground.PlaygroundApplication.main(PlaygroundApplication.java:15)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 15 more
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.getIsolatedConnection(GenerationTargetToDatabase.java:60)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:112)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropTables(SchemaDropperImpl.java:381)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:253)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:346)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:437)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 42 more
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	... 56 more
+2024-06-24 15:55:21.536  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Starting PlaygroundApplication using Java 22.0.1 with PID 8456 (C:\Users\kbaganas\Downloads\playground\target\classes started by kbaganas in C:\Users\kbaganas\Downloads\playground)
+2024-06-24 15:55:21.559 DEBUG SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-24 15:55:21.563  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-06-24 15:55:21.628  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\kbaganas\Downloads\playground\compose.yaml'
+2024-06-24 15:55:23.128  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-06-24 15:55:24.379  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 15:55:24.488  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2024-06-24 15:55:24.838  INFO SWG-1SHYFL3 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=267411a3-a1b6-3bc9-80f0-8f70803376f8
+2024-06-24 15:55:25.517  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-24 15:55:25.533  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:55:25.533  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-24 15:55:25.533  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24 15:55:25.599  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-24 15:55:25.599  INFO SWG-1SHYFL3 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2256 ms
+2024-06-24 15:55:25.876 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-06-24 15:55:26.040  INFO SWG-1SHYFL3 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 15:55:26.104  INFO SWG-1SHYFL3 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24 15:55:26.136  INFO SWG-1SHYFL3 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-06-24 15:55:26.420  INFO SWG-1SHYFL3 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 15:55:26.451  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:55:27.496  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.bk.playground.PlaygroundApplication.main(PlaygroundApplication.java:15)
+2024-06-24 15:55:27.528  WARN SWG-1SHYFL3 --- [           main] o.h.o.deprecation                        : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 15:55:28.140  INFO SWG-1SHYFL3 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 15:55:28.140  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:55:29.159  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 0, SQLState: 08001
+2024-06-24 15:55:29.159 ERROR SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2024-06-24 15:55:29.159 ERROR SWG-1SHYFL3 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2024-06-24 15:55:29.159  WARN SWG-1SHYFL3 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2024-06-24 15:55:29.159  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-06-24 15:55:29.175  INFO SWG-1SHYFL3 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-24 15:55:29.191 ERROR SWG-1SHYFL3 --- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.bk.playground.PlaygroundApplication.main(PlaygroundApplication.java:15)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 15 more
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.getIsolatedConnection(GenerationTargetToDatabase.java:60)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:112)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropTables(SchemaDropperImpl.java:381)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:253)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 19 more
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:346)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:437)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 42 more
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	... 56 more
+2024-06-24 15:56:06.628  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Starting PlaygroundApplication using Java 22.0.1 with PID 24944 (C:\Users\kbaganas\Downloads\playground\target\classes started by kbaganas in C:\Users\kbaganas\Downloads\playground)
+2024-06-24 15:56:06.637 DEBUG SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-24 15:56:06.637  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-06-24 15:56:06.710  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\kbaganas\Downloads\playground\compose.yaml'
+2024-06-24 15:56:08.275  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Created
+2024-06-24 15:56:08.276  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Created
+2024-06-24 15:56:08.276  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Created
+2024-06-24 15:56:08.276  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Created
+2024-06-24 15:56:08.296  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Starting
+2024-06-24 15:56:08.296  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Starting
+2024-06-24 15:56:08.606  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Started
+2024-06-24 15:56:08.606  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Starting
+2024-06-24 15:56:08.787  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Started
+2024-06-24 15:56:09.026  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Started
+2024-06-24 15:56:09.027  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Starting
+2024-06-24 15:56:09.316  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Started
+2024-06-24 15:56:09.316  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Waiting
+2024-06-24 15:56:09.316  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Waiting
+2024-06-24 15:56:09.316  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Waiting
+2024-06-24 15:56:09.316  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Waiting
+2024-06-24 15:56:09.836  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Healthy
+2024-06-24 15:56:09.836  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Healthy
+2024-06-24 15:56:09.837  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Healthy
+2024-06-24 15:56:09.840  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Healthy
+2024-06-24 15:56:17.212  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 15:56:17.324  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interface.
+2024-06-24 15:56:17.687  INFO SWG-1SHYFL3 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=53b05079-4c8d-3a05-bf47-afd89961a696
+2024-06-24 15:56:18.401  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-24 15:56:18.417  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:56:18.417  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-24 15:56:18.417  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24 15:56:18.480  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-24 15:56:18.480  INFO SWG-1SHYFL3 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2195 ms
+2024-06-24 15:56:18.815 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-06-24 15:56:19.024  INFO SWG-1SHYFL3 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 15:56:19.072  INFO SWG-1SHYFL3 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24 15:56:19.104  INFO SWG-1SHYFL3 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-06-24 15:56:19.394  INFO SWG-1SHYFL3 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 15:56:19.409  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 15:56:19.546  INFO SWG-1SHYFL3 --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fafa9bf
+2024-06-24 15:56:19.547  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-06-24 15:56:19.587  WARN SWG-1SHYFL3 --- [           main] o.h.o.deprecation                        : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 15:56:20.240  INFO SWG-1SHYFL3 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 15:56:20.328  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : SQL Warning Code: 0, SQLState: 00000
+2024-06-24 15:56:20.328  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : table "travelers" does not exist, skipping
+2024-06-24 15:56:20.399  INFO SWG-1SHYFL3 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:56:21.069  WARN SWG-1SHYFL3 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 15:56:21.197 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-06-24 15:56:21.293 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-06-24 15:56:21.357 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-24 15:56:21.417 DEBUG SWG-1SHYFL3 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-24 15:56:21.470  WARN SWG-1SHYFL3 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-24 15:56:22.585  INFO SWG-1SHYFL3 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-24 15:56:22.633  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:56:22.653  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-24 15:56:22.669  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Started PlaygroundApplication in 16.465 seconds (process running for 17.457)
+2024-06-24 15:56:22.684  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Info log
+2024-06-24 15:56:22.684 ERROR SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Error log
+2024-06-24 15:56:22.684  WARN SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Warning message
+2024-06-24 15:56:53.043  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 15:56:53.043  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-24 15:56:53.043 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2024-06-24 15:56:53.043 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2024-06-24 15:56:53.043 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2024-06-24 15:56:53.043 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@f9402c2
+2024-06-24 15:56:53.043 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@79927a7c
+2024-06-24 15:56:53.043 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-24 15:56:53.043  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2024-06-24 15:56:53.077 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/immigrants", parameters={}
+2024-06-24 15:56:53.093 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#createImmigrantRecord(ImmigrantRequest)
+2024-06-24 15:56:53.143 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ImmigrantRequest(fistName=Nik, surName=Strou, originatingCountry=Greece, personalIDNumber=AD123, per (truncated)...]
+2024-06-24 15:56:53.343  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] c.b.p.r.ImmigrantRepository              : Immigrant record created in DB
+2024-06-24 15:56:53.375  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.k.c.p.ProducerConfig                 : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = playground-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-06-24 15:56:53.443  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-06-24 15:56:53.477  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.k.c.p.KafkaProducer                  : [Producer clientId=playground-producer-1] Instantiated an idempotent producer.
+2024-06-24 15:56:53.569  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.k.c.u.AppInfoParser                  : Kafka version: 3.7.0
+2024-06-24 15:56:53.570  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.k.c.u.AppInfoParser                  : Kafka commitId: 2ae524ed625438c5
+2024-06-24 15:56:53.570  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.k.c.u.AppInfoParser                  : Kafka startTimeMs: 1719233813566
+2024-06-24 15:56:54.151  INFO SWG-1SHYFL3 --- [ound-producer-1] o.a.k.c.Metadata                         : [Producer clientId=playground-producer-1] Cluster ID: 09160ug3RrK9wgghK5dsPA
+2024-06-24 15:56:54.153  INFO SWG-1SHYFL3 --- [ound-producer-1] o.a.k.c.p.i.TransactionManager           : [Producer clientId=playground-producer-1] ProducerId set to 12000 with epoch 0
+2024-06-24 15:56:54.195 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/octet-stream', given [*/*] and supported [*/*]
+2024-06-24 15:56:54.198 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 201 CREATED
+2024-06-24 15:58:50.387 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : POST "/immigrants", parameters={}
+2024-06-24 15:58:50.388 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#createImmigrantRecord(ImmigrantRequest)
+2024-06-24 15:58:50.390 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ImmigrantRequest(fistName=Nikos, surName=Stroudf, originatingCountry=Greece, personalIDNumber=AD1243 (truncated)...]
+2024-06-24 15:58:50.413  INFO SWG-1SHYFL3 --- [nio-8080-exec-2] c.b.p.r.ImmigrantRepository              : Immigrant record created in DB
+2024-06-24 15:58:50.415 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/octet-stream', given [*/*] and supported [*/*]
+2024-06-24 15:58:50.416 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 201 CREATED
+2024-06-24 15:59:10.273 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : POST "/immigrants", parameters={}
+2024-06-24 15:59:10.289 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#createImmigrantRecord(ImmigrantRequest)
+2024-06-24 15:59:10.291 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ImmigrantRequest(fistName=Mokos, surName=Fouks, originatingCountry=Greece, personalIDNumber=AF242, p (truncated)...]
+2024-06-24 15:59:10.303  INFO SWG-1SHYFL3 --- [nio-8080-exec-4] c.b.p.r.ImmigrantRepository              : Immigrant record created in DB
+2024-06-24 15:59:10.305 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/octet-stream', given [*/*] and supported [*/*]
+2024-06-24 15:59:10.306 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 201 CREATED
+2024-06-24 15:59:26.251 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : GET "/immigrants/1", parameters={}
+2024-06-24 15:59:26.251 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#getImmigrantRecord(String)
+2024-06-24 15:59:26.266 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Failed to complete request: java.lang.NullPointerException: Cannot invoke "com.bk.playground.repository.ImmigrantRepository.getImmigrantRecord(java.lang.Integer)" because "this.immigrantRepository" is null
+2024-06-24 15:59:26.266 ERROR SWG-1SHYFL3 --- [nio-8080-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.bk.playground.repository.ImmigrantRepository.getImmigrantRecord(java.lang.Integer)" because "this.immigrantRepository" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.bk.playground.repository.ImmigrantRepository.getImmigrantRecord(java.lang.Integer)" because "this.immigrantRepository" is null
+	at com.bk.playground.controller.api.ImmigrantController.getImmigrantRecord(ImmigrantController.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-06-24 15:59:26.283 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-24 15:59:26.283 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-24 15:59:26.300 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-24 15:59:26.300 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Jun 24 15:59:26 EEST 2024, status=500, error=Internal Server Error, path=/immigrants/ (truncated)...]
+2024-06-24 15:59:26.333 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 500
+2024-06-24 16:05:54.213  INFO SWG-1SHYFL3 --- [ound-producer-1] o.a.k.c.NetworkClient                    : [Producer clientId=playground-producer-1] Node -1 disconnected.
+2024-06-24 16:09:53.226  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.p.KafkaProducer                  : [Producer clientId=playground-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-06-24 16:09:53.234  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Metrics scheduler closed
+2024-06-24 16:09:53.234  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-24 16:09:53.234  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-06-24 16:09:53.235  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Metrics reporters closed
+2024-06-24 16:09:53.235  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.u.AppInfoParser                  : App info kafka.producer for playground-producer-1 unregistered
+2024-06-24 16:09:53.244  INFO SWG-1SHYFL3 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 16:09:53.359  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-06-24 16:09:53.367  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-06-24 16:10:38.006  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Starting PlaygroundApplication using Java 22.0.1 with PID 16576 (C:\Users\kbaganas\Downloads\playground\target\classes started by kbaganas in C:\Users\kbaganas\Downloads\playground)
+2024-06-24 16:10:38.013 DEBUG SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-24 16:10:38.014  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-06-24 16:10:38.073  INFO SWG-1SHYFL3 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\kbaganas\Downloads\playground\compose.yaml'
+2024-06-24 16:10:39.588  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Created
+2024-06-24 16:10:39.588  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Created
+2024-06-24 16:10:39.588  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Created
+2024-06-24 16:10:39.589  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Created
+2024-06-24 16:10:39.613  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Starting
+2024-06-24 16:10:39.613  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Starting
+2024-06-24 16:10:40.036  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Started
+2024-06-24 16:10:40.116  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Started
+2024-06-24 16:10:40.116  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Starting
+2024-06-24 16:10:40.413  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Started
+2024-06-24 16:10:40.414  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Starting
+2024-06-24 16:10:40.715  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Started
+2024-06-24 16:10:40.716  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Waiting
+2024-06-24 16:10:40.716  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Waiting
+2024-06-24 16:10:40.716  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Waiting
+2024-06-24 16:10:40.717  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Waiting
+2024-06-24 16:10:41.228  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container zookeeper_playground  Healthy
+2024-06-24 16:10:41.228  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-kafdrop-1  Healthy
+2024-06-24 16:10:41.229  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container kafka_playground  Healthy
+2024-06-24 16:10:41.236  INFO SWG-1SHYFL3 --- [utReader-stderr] o.s.b.d.c.c.DockerCli                    :  Container playground-postgres-1  Healthy
+2024-06-24 16:10:48.606  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 16:10:48.715  INFO SWG-1SHYFL3 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2024-06-24 16:10:49.127  INFO SWG-1SHYFL3 --- [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=53b05079-4c8d-3a05-bf47-afd89961a696
+2024-06-24 16:10:49.974  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-06-24 16:10:49.988  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 16:10:49.990  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-06-24 16:10:49.990  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24 16:10:50.072  INFO SWG-1SHYFL3 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-06-24 16:10:50.074  INFO SWG-1SHYFL3 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2450 ms
+2024-06-24 16:10:50.460 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-06-24 16:10:50.693  INFO SWG-1SHYFL3 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 16:10:50.769  INFO SWG-1SHYFL3 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-24 16:10:50.810  INFO SWG-1SHYFL3 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-06-24 16:10:51.151  INFO SWG-1SHYFL3 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 16:10:51.211  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-06-24 16:10:51.493  INFO SWG-1SHYFL3 --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@596d17f4
+2024-06-24 16:10:51.495  INFO SWG-1SHYFL3 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-06-24 16:10:51.695  WARN SWG-1SHYFL3 --- [           main] o.h.o.deprecation                        : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 16:10:52.494  INFO SWG-1SHYFL3 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 16:10:52.550  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : SQL Warning Code: 0, SQLState: 00000
+2024-06-24 16:10:52.550  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : table "immigrants" does not exist, skipping
+2024-06-24 16:10:52.553  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : SQL Warning Code: 0, SQLState: 00000
+2024-06-24 16:10:52.554  WARN SWG-1SHYFL3 --- [           main] o.h.e.j.s.SqlExceptionHelper             : table "travelers" does not exist, skipping
+2024-06-24 16:10:52.963  INFO SWG-1SHYFL3 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 16:10:53.858  WARN SWG-1SHYFL3 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 16:10:54.048 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-06-24 16:10:54.197 DEBUG SWG-1SHYFL3 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-06-24 16:10:54.330 DEBUG SWG-1SHYFL3 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-24 16:10:54.379 DEBUG SWG-1SHYFL3 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-24 16:10:54.447  WARN SWG-1SHYFL3 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-24 16:10:55.656  INFO SWG-1SHYFL3 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-24 16:10:55.720  INFO SWG-1SHYFL3 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-24 16:10:55.750  INFO SWG-1SHYFL3 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-06-24 16:10:55.761  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Started PlaygroundApplication in 18.139 seconds (process running for 21.048)
+2024-06-24 16:10:55.777  INFO SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Info log
+2024-06-24 16:10:55.777 ERROR SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Error log
+2024-06-24 16:10:55.777  WARN SWG-1SHYFL3 --- [           main] c.b.p.PlaygroundApplication              : Warning message
+2024-06-24 16:11:05.178  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 16:11:05.178  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-06-24 16:11:05.178 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2024-06-24 16:11:05.178 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2024-06-24 16:11:05.178 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2024-06-24 16:11:05.178 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3569f0f1
+2024-06-24 16:11:05.178 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3b386ba7
+2024-06-24 16:11:05.178 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-24 16:11:05.178  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2024-06-24 16:11:05.194 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : GET "/immigrants/1", parameters={}
+2024-06-24 16:11:05.194 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#getImmigrantRecord(String)
+2024-06-24 16:11:05.320  INFO SWG-1SHYFL3 --- [nio-8080-exec-1] c.b.p.r.ImmigrantRepository              : Immigrant record is not found in DB, id: 1
+2024-06-24 16:11:05.326 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/octet-stream', given [*/*] and supported [*/*]
+2024-06-24 16:11:05.327 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2024-06-24 16:15:28.324 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : POST "/immigrants", parameters={}
+2024-06-24 16:15:28.324 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#createImmigrantRecord(ImmigrantRequest)
+2024-06-24 16:15:28.343 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ImmigrantRequest(fistName=Mokos, surName=Fouks, originatingCountry=Greece, personalIDNumber=AF242, p (truncated)...]
+2024-06-24 16:15:28.391  INFO SWG-1SHYFL3 --- [nio-8080-exec-3] c.b.p.r.ImmigrantRepository              : Immigrant record created in DB
+2024-06-24 16:15:28.408  INFO SWG-1SHYFL3 --- [nio-8080-exec-3] o.a.k.c.p.ProducerConfig                 : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = playground-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-06-24 16:15:28.442  INFO SWG-1SHYFL3 --- [nio-8080-exec-3] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-06-24 16:15:28.458  INFO SWG-1SHYFL3 --- [nio-8080-exec-3] o.a.k.c.p.KafkaProducer                  : [Producer clientId=playground-producer-1] Instantiated an idempotent producer.
+2024-06-24 16:15:28.493  INFO SWG-1SHYFL3 --- [nio-8080-exec-3] o.a.k.c.u.AppInfoParser                  : Kafka version: 3.7.0
+2024-06-24 16:15:28.493  INFO SWG-1SHYFL3 --- [nio-8080-exec-3] o.a.k.c.u.AppInfoParser                  : Kafka commitId: 2ae524ed625438c5
+2024-06-24 16:15:28.493  INFO SWG-1SHYFL3 --- [nio-8080-exec-3] o.a.k.c.u.AppInfoParser                  : Kafka startTimeMs: 1719234928493
+2024-06-24 16:15:28.761  INFO SWG-1SHYFL3 --- [ound-producer-1] o.a.k.c.Metadata                         : [Producer clientId=playground-producer-1] Cluster ID: 09160ug3RrK9wgghK5dsPA
+2024-06-24 16:15:28.762  INFO SWG-1SHYFL3 --- [ound-producer-1] o.a.k.c.p.i.TransactionManager           : [Producer clientId=playground-producer-1] ProducerId set to 13000 with epoch 0
+2024-06-24 16:15:28.768 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/octet-stream', given [*/*] and supported [*/*]
+2024-06-24 16:15:28.768 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 201 CREATED
+2024-06-24 16:15:42.333 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : GET "/immigrants/1", parameters={}
+2024-06-24 16:15:42.335 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bk.playground.controller.api.ImmigrantController#getImmigrantRecord(String)
+2024-06-24 16:15:42.352  INFO SWG-1SHYFL3 --- [nio-8080-exec-4] c.b.p.r.ImmigrantRepository              : Immigrant record retrieved from DB: ImmigrantModel(id=1, fistName=Mokos, surName=Fouks, originatingCountry=Greece, personalIDNumber=AF242, personalIDType=ADT)
+2024-06-24 16:15:42.356 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-24 16:15:42.356 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ImmigrantModel(id=1, fistName=Mokos, surName=Fouks, originatingCountry=Greece, personalIDNumber=AF24 (truncated)...]
+2024-06-24 16:15:42.369 DEBUG SWG-1SHYFL3 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2024-06-24 16:15:59.002  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.p.KafkaProducer                  : [Producer clientId=playground-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-06-24 16:15:59.023  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Metrics scheduler closed
+2024-06-24 16:15:59.023  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-24 16:15:59.024  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-06-24 16:15:59.024  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Metrics reporters closed
+2024-06-24 16:15:59.024  INFO SWG-1SHYFL3 --- [ionShutdownHook] o.a.k.c.u.AppInfoParser                  : App info kafka.producer for playground-producer-1 unregistered
+2024-06-24 16:15:59.030  INFO SWG-1SHYFL3 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 16:15:59.114  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-06-24 16:15:59.120  INFO SWG-1SHYFL3 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

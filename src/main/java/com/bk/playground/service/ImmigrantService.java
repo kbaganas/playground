@@ -17,7 +17,7 @@ public class ImmigrantService {
         return  repository.createImmigrantRecord(new ImmigrantDTO2ModelMapper().mapToModel(dto));
     }
 
-    public boolean getImmigrantRecord (Integer id) {
+    public ImmigrantModel getImmigrantRecord (Integer id) {
         return  repository.getImmigrantRecord(id);
     }
 

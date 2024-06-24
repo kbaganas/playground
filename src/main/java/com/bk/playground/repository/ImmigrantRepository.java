@@ -20,11 +20,14 @@ public interface ImmigrantRepository extends JpaRepository<ImmigrantModel, Integ
         return true;
     }
 
-    default boolean getImmigrantRecord(Integer id) {
-        // TODO
+    default ImmigrantModel getImmigrantRecord(Integer id) {
         // retrieve Immigrant by id from the DB
         Optional<ImmigrantModel> immigrantModel = findById(id);
-        logger.info("Immigrant record retrieved from DB: {}", immigrantModel);
-        return true;
+        if (immigrantModel.isPresent()) {
+            logger.info("Immigrant record retrieved from DB: {}", immigrantModel.get().toString());
+            return immigrantModel.get();
+        }
+        logger.info("Immigrant record is not found in DB, id: {}", id.toString());
+        return null;
     }
 }

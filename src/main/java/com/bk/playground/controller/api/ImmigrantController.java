@@ -2,8 +2,6 @@ package com.bk.playground.controller.api;
 
 import com.bk.playground.controller.request.ImmigrantRequest;
 import com.bk.playground.dto.mapper.ImmigrantRequest2ModelDTOMapper;
-import com.bk.playground.exceptions.ImmigrantNotFoundException;
-import com.bk.playground.repository.ImmigrantRepository;
 import com.bk.playground.service.ImmigrantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,7 +13,6 @@ public class ImmigrantController {
 
     @Autowired
     private ImmigrantService service;
-    private ImmigrantRepository immigrantRepository;
     public ImmigrantController(ImmigrantService service) {
         this.service = service;
     }
@@ -31,11 +28,8 @@ public class ImmigrantController {
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
     }
 
-    @RequestMapping(name = "GetImmigrantRecord", value = "/immigrants/{id}", method = RequestMethod.GET)
+    @GetMapping(name = "GetImmigrantRecord", value = "/immigrants/{id}")
     public ResponseEntity<Object> getImmigrantRecord(@PathVariable("id") String id) {
-        if (!immigrantRepository.getImmigrantRecord(Integer.valueOf(id))) {
-            throw new ImmigrantNotFoundException();
-        }
-        return new ResponseEntity<>("Immigrant found", HttpStatus.FOUND);
+        return ResponseEntity.ok().body(service.getImmigrantRecord(Integer.valueOf(id)));
     }
 }
